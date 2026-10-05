@@ -1,5 +1,6 @@
-# Bank-Compliance-SQL-Analysis
-SQL-based analysis of client and transaction risk for a global banking institution.
+# Rockbuster SQL Business Analysis
+
+### Customer, Market and Revenue Analysis Using SQL
 ### Advanced Techniques & Deliverables
 * **Subqueries:** Demonstrated the ability to nest queries to perform multiple counts across different parameters in one execution.
 * **Common Table Expressions (CTEs):** Used WITH clauses to create readable, modular code for complex revenue analysis.
