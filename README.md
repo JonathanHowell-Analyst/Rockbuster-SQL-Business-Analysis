@@ -1,6 +1,18 @@
 # Rockbuster SQL Business Analysis
 
 ### Customer, Market and Revenue Analysis Using SQL
+## Executive Summary
+
+This project uses SQL to analyse Rockbuster's customer, geographic and revenue data to support business decision-making.
+
+The analysis moves from broad market-level questions to individual customer targeting, identifying:
+
+- Countries with the largest customer bases
+- Priority cities within key markets
+- High-value customers for targeted rewards
+- Revenue patterns that can support market prioritisation
+
+The project demonstrates how SQL can be used not only to retrieve data, but to answer practical business questions and translate database information into actionable insights.
 ### Advanced Techniques & Deliverables
 * **Subqueries:** Demonstrated the ability to nest queries to perform multiple counts across different parameters in one execution.
 * **Common Table Expressions (CTEs):** Used WITH clauses to create readable, modular code for complex revenue analysis.
