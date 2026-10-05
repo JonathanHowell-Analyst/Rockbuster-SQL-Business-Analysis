@@ -33,6 +33,27 @@ The analysis focuses on three practical questions:
 - **Common Table Expressions (CTEs)** — structuring more complex queries clearly
 - **Filtering & Sorting** — identifying priority markets and customers
 - **Business Analysis** — translating query results into commercial recommendations
+- ## Analysis Approach
+
+The analysis followed a funnel from broad geographic opportunity to individual customer targeting.
+
+### 1. Geographic Market Profiling
+
+The first stage identified the countries with the largest Rockbuster customer bases.
+
+SQL joins connected the `customer`, `address`, `city` and `country` tables, while `COUNT`, `GROUP BY`, `ORDER BY` and `LIMIT` were used to rank markets by customer numbers.
+
+### 2. Priority City Analysis
+
+The analysis then narrowed the focus to cities within priority countries.
+
+Filtering and grouping were used to identify urban markets where targeted business activity could have the greatest potential reach.
+
+### 3. High-Value Customer Identification
+
+Finally, customer and payment data were combined to identify high-value customers within target markets.
+
+Revenue was aggregated at customer level using multi-table joins and `SUM`, allowing customers to be ranked by total spending for potential targeted rewards or marketing initiatives.
 ### Advanced Techniques & Deliverables
 * **Subqueries:** Demonstrated the ability to nest queries to perform multiple counts across different parameters in one execution.
 * **Common Table Expressions (CTEs):** Used WITH clauses to create readable, modular code for complex revenue analysis.
