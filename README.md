@@ -33,7 +33,8 @@ The analysis focuses on three practical questions:
 - **Common Table Expressions (CTEs)** — structuring more complex queries clearly
 - **Filtering & Sorting** — identifying priority markets and customers
 - **Business Analysis** — translating query results into commercial recommendations
-- ## Analysis Approach
+- 
+## Analysis Approach
 ## Key Findings
 
 ### 1. Customer Distribution Was Concentrated in Key International Markets
@@ -49,6 +50,21 @@ These customers represent potential candidates for targeted rewards, retention i
 
 ### 4. SQL Supported a Business Funnel from Market to Customer
 The analysis progressively narrowed the decision from countries → cities → revenue → individual high-value customers, demonstrating how relational data can support increasingly targeted business decisions.
+## Business Recommendations
+
+Based on the analysis, Rockbuster could use its customer and revenue data to support several commercial decisions:
+
+### 1. Prioritise Markets Using Both Customer Volume and Revenue
+Avoid evaluating markets solely by customer numbers. Combine customer concentration with revenue performance when deciding where marketing resources should be focused.
+
+### 2. Focus Marketing on High-Performing Cities
+Cities generating strong revenue within priority countries can be used as starting points for more targeted regional campaigns.
+
+### 3. Develop High-Value Customer Campaigns
+Use customer-level spending data to identify high-value customers for personalised rewards, retention offers or loyalty initiatives.
+
+### 4. Extend the Analysis Beyond Total Spend
+Future analysis could incorporate rental frequency, customer tenure and recent activity to build a more complete picture of customer value and loyalty.
 
 The analysis followed a funnel from broad geographic opportunity to individual customer targeting.
 
