@@ -24,6 +24,15 @@ The analysis focuses on three practical questions:
 1. Which countries and cities contain the largest customer bases?
 2. Which customers generate the most revenue within priority markets?
 3. How can these insights support targeted marketing and customer reward initiatives?
+4. ## Tools & SQL Skills
+
+- **SQL** — querying and analysing relational business data
+- **INNER JOINs** — combining customer, address, city, country and payment data
+- **GROUP BY & Aggregation** — calculating customer counts and revenue metrics
+- **Subqueries** — answering multi-stage business questions
+- **Common Table Expressions (CTEs)** — structuring more complex queries clearly
+- **Filtering & Sorting** — identifying priority markets and customers
+- **Business Analysis** — translating query results into commercial recommendations
 ### Advanced Techniques & Deliverables
 * **Subqueries:** Demonstrated the ability to nest queries to perform multiple counts across different parameters in one execution.
 * **Common Table Expressions (CTEs):** Used WITH clauses to create readable, modular code for complex revenue analysis.
