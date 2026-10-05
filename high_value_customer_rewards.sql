@@ -1,5 +1,6 @@
-/* Goal: Identify the top 5 most loyal customers (highest total spend) 
-who are located in the top 10 cities and countries identified. */
+/* Goal: Identify the top 5 highest-spending customers
+within the priority cities identified in the geographic analysis.
+These customers could be considered for targeted rewards or marketing campaigns. */
 
 SELECT 
     customer.customer_id, 
