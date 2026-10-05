@@ -54,9 +54,3 @@ Filtering and grouping were used to identify urban markets where targeted busine
 Finally, customer and payment data were combined to identify high-value customers within target markets.
 
 Revenue was aggregated at customer level using multi-table joins and `SUM`, allowing customers to be ranked by total spending for potential targeted rewards or marketing initiatives.
-
-### Advanced Techniques & Deliverables
-
-* **Subqueries:** Demonstrated the ability to nest queries to perform multiple counts across different parameters in one execution.
-* **Common Table Expressions (CTEs):** Used WITH clauses to create readable, modular code for complex revenue analysis.
-* **Business Communication:** Included a full data dictionary and management-ready presentation to bridge the gap between technical data and executive decision-making.
