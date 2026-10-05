@@ -61,7 +61,7 @@ The analysis progressively narrowed the decision from countries → cities → r
 | `customer_location_subquery.sql` | Demonstrates subqueries by comparing customer counts across selected countries |
 | `high_value_customer_rewards.sql` | Identifies the five highest-spending customers within priority cities for potential targeted campaigns |
 | `Rockbuster_Data_Dictionary.pdf` | Documents the structure and meaning of the project data |
-| `Rockbuster_Final_Presentation.pptx` | Management-facing presentation of the analysis and recommendations |
+| `Rockbuster_Final_Presentation.pptm` | Management-facing presentation of the analysis and recommendations |
 
 Based on the analysis, Rockbuster could use its customer and revenue data to support several commercial decisions:
 
