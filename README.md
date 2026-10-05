@@ -34,6 +34,21 @@ The analysis focuses on three practical questions:
 - **Filtering & Sorting** — identifying priority markets and customers
 - **Business Analysis** — translating query results into commercial recommendations
 - ## Analysis Approach
+## Key Findings
+
+### 1. Customer Distribution Was Concentrated in Key International Markets
+Geographic analysis identified a group of countries with comparatively large Rockbuster customer bases, providing a starting point for market prioritisation.
+
+### 2. Revenue Analysis Refined the Geographic Picture
+Customer volume alone did not provide the complete business picture. Using a CTE and payment data allowed cities within priority countries to be ranked by total revenue.
+
+### 3. High-Value Customers Could Be Identified for Targeted Campaigns
+By combining customer, payment and geographic data, the analysis identified the five highest-spending customers within priority cities.
+
+These customers represent potential candidates for targeted rewards, retention initiatives or personalised marketing campaigns.
+
+### 4. SQL Supported a Business Funnel from Market to Customer
+The analysis progressively narrowed the decision from countries → cities → revenue → individual high-value customers, demonstrating how relational data can support increasingly targeted business decisions.
 
 The analysis followed a funnel from broad geographic opportunity to individual customer targeting.
 
