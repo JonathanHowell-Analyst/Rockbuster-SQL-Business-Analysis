@@ -13,6 +13,17 @@ The analysis moves from broad market-level questions to individual customer targ
 - Revenue patterns that can support market prioritisation
 
 The project demonstrates how SQL can be used not only to retrieve data, but to answer practical business questions and translate database information into actionable insights.
+## Business Problem
+
+Rockbuster Stealth is a fictional movie rental company planning how to compete in a changing entertainment market.
+
+Management needed to better understand its existing customer and revenue data to determine where business activity was concentrated and which customers and markets should receive greater attention.
+
+The analysis focuses on three practical questions:
+
+1. Which countries and cities contain the largest customer bases?
+2. Which customers generate the most revenue within priority markets?
+3. How can these insights support targeted marketing and customer reward initiatives?
 ### Advanced Techniques & Deliverables
 * **Subqueries:** Demonstrated the ability to nest queries to perform multiple counts across different parameters in one execution.
 * **Common Table Expressions (CTEs):** Used WITH clauses to create readable, modular code for complex revenue analysis.
