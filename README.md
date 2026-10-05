@@ -60,7 +60,7 @@ The analysis progressively narrowed the decision from countries → cities → r
 | `top_revenue_cities_cte.sql` | Uses a CTE and payment data to identify high-revenue cities within priority countries |
 | `customer_location_subquery.sql` | Demonstrates subqueries by comparing customer counts across selected countries |
 | `high_value_customer_rewards.sql` | Identifies the five highest-spending customers within priority cities for potential targeted campaigns |
-| `data_dictionary.xlsx` | Documents the structure and meaning of the project data |
+| `Rockbuster_Data_Dictionary.pdf` | Documents the structure and meaning of the project data |
 | `Rockbuster_Final_Presentation.pptx` | Management-facing presentation of the analysis and recommendations |
 
 Based on the analysis, Rockbuster could use its customer and revenue data to support several commercial decisions:
