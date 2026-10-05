@@ -51,6 +51,17 @@ These customers represent potential candidates for targeted rewards, retention i
 ### 4. SQL Supported a Business Funnel from Market to Customer
 The analysis progressively narrowed the decision from countries → cities → revenue → individual high-value customers, demonstrating how relational data can support increasingly targeted business decisions.
 ## Business Recommendations
+## Project Files
+
+| File | Purpose |
+|---|---|
+| `top_10_countries.sql` | Identifies the countries with the largest Rockbuster customer bases using multi-table joins and aggregation |
+| `top_10_cities_analysis.sql` | Narrows the geographic analysis to priority cities |
+| `top_revenue_cities_cte.sql` | Uses a CTE and payment data to identify high-revenue cities within priority countries |
+| `customer_location_subquery.sql` | Demonstrates subqueries by comparing customer counts across selected countries |
+| `high_value_customer_rewards.sql` | Identifies the five highest-spending customers within priority cities for potential targeted campaigns |
+| `data_dictionary.xlsx` | Documents the structure and meaning of the project data |
+| `Rockbuster_Final_Presentation.pptx` | Management-facing presentation of the analysis and recommendations |
 
 Based on the analysis, Rockbuster could use its customer and revenue data to support several commercial decisions:
 
